@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">   
+    <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
     <title>Company Profile</title>
     <style>
         body {
@@ -47,13 +49,18 @@
         #download-button:hover {
             background-color: #0056b3;
         }
+
+        #mypdf{
+            width: 85%;
+            height: 975px;
+        }
     </style>
 </head>
 <body>
 
 <div id="container">
     <!-- Replace 'company-profile.pdf' with the actual file path or URL -->
-    <iframe id="profile-viewer" src="KeboCompanyProfile.pdf"></iframe>
+    <iframe id="mypdf" frameborder="0" src="KeboCompanyProfile.pdf"></iframe>
 </div>
 
 <!-- Replace 'company-profile.pdf' with the actual file path or URL -->
@@ -61,4 +68,3 @@
 
 </body>
 </html>
-
